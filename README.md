@@ -1,4 +1,4 @@
-# SMARTFIN — Web Learning Akademik
+# Web Learning Akademik
 
 Platform pembelajaran berbasis web untuk mata kuliah/modul akademik mengenai **Investment Experience** dan **Financial Behavior**. SMARTFIN menggabungkan materi tertulis (PDF/DOCX), video pembelajaran, dan latihan soal pilihan ganda dengan penilaian otomatis dalam satu aplikasi.
 
