@@ -1,0 +1,305 @@
+.register-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #102f5b;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Euclid Circular B", Arial, sans-serif;
+}
+
+.register-container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 600px;
+    border-radius: 20px;
+    background: rgba(10, 20, 35, 0.45);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.register-left {
+    flex: 1.1;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.register-right {
+    flex: 0.9;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.register-brand {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.register-left h1 {
+    margin: auto 0 16px;
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.register-left-desc {
+    margin: 0 0 auto 0;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 90%;
+}
+
+.register-header {
+    text-align: left;
+}
+
+.register-role {
+    margin: 0 0 8px;
+    color: #9fc3e9;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.register-header h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+.register-role-switch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    margin-top: 24px;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.register-role-switch button {
+    height: 42px;
+    border: 0;
+    border-radius: 7px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.register-role-switch button:hover {
+    color: #ffffff;
+}
+
+.register-role-switch button.active {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.register-error,
+.register-success {
+    margin-top: 18px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.register-error {
+    border: 1px solid rgba(239, 197, 197, 0.3);
+    background: rgba(255, 246, 246, 0.1);
+    color: #ff8a8a;
+}
+
+.register-success {
+    border: 1px solid rgba(183, 223, 197, 0.3);
+    background: rgba(242, 251, 245, 0.1);
+    color: #a7eebf;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.register-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.register-field label {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.register-field input {
+    width: 100%;
+    height: 46px;
+    padding: 0 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.register-field input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.register-field input:focus {
+    border-color: #9fc3e9;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 0 3px rgba(159, 195, 233, 0.15);
+}
+
+.register-password-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.register-password-wrapper {
+    position: relative;
+}
+
+.register-password-wrapper input {
+    padding-right: 48px;
+}
+
+.register-password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 0;
+    transform: translateY(-50%);
+    background: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.register-password-toggle:hover {
+    color: #ffffff;
+}
+
+.register-submit {
+    width: 100%;
+    height: 48px;
+    margin-top: 8px;
+    border: 0;
+    border-radius: 8px;
+    background: #0ea5e9;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.register-submit:hover:not(:disabled) {
+    background: #0284c7;
+}
+
+.register-submit:active:not(:disabled) {
+    transform: translateY(1px);
+}
+
+.register-submit:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.register-login {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+}
+
+.register-login a {
+    color: #9fc3e9;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register-login a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 860px) {
+    .register-container {
+        flex-direction: column;
+        max-width: 500px;
+        min-height: auto;
+    }
+    .register-left {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 40px;
+    }
+    .register-left h1 {
+        font-size: 32px;
+        margin: 20px 0 12px;
+    }
+    .register-right {
+        padding: 40px;
+    }
+    .register-password-row {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .register-page {
+        padding: 16px;
+    }
+    .register-left, .register-right {
+        padding: 30px 24px;
+    }
+    .register-left h1 {
+        font-size: 28px;
+    }
+}
