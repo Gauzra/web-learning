@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
 
 import backgroundImage from '../../assets/images/auth/bg1.png';
+import logoImage from '../../assets/images/DigiLitera.png';
 
 function EyeIcon({ visible }) {
     return (
@@ -163,7 +164,7 @@ export default function Login() {
 
             <div className="auth-container">
                 <div className="auth-left">
-                    <div className="auth-brand">SMARTFIN</div>
+                    <img src={logoImage} alt="DigiLitera" className="auth-brand" />
                    <h1 className="auth-brand-sub">Belajar Jadi Lebih Mudah</h1>
                    <p className="register-left-desc"> 
                     Jelajahi berbagai materi pembelajaran, 

@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './Register.css';
 
 import backgroundImage from '../../assets/images/auth/bg1.png';
+import logoImage from '../../assets/images/DigiLitera.png';
 
 function EyeIcon({ visible }) {
     return (
@@ -161,7 +162,7 @@ export default function Register() {
 
             <div className="register-container">
                 <div className="register-left">
-                    <div className="register-brand">SMARTFIN</div>
+                    <img src={logoImage} alt="DigiLitera" className="register-brand" />
                     <h1>Bergabunglah dengan Kami</h1>
                     <p className="register-left-desc">
                         Daftarkan akun untuk mengakses platform pembelajaran SMARTFIN.

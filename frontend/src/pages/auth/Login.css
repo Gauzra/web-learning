@@ -43,15 +43,17 @@
 }
 
 .auth-brand {
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    height: 110px;
+    width: auto;
+    object-fit: contain;
+    object-position: left center;
+    align-self: flex-start;
+    filter: brightness(0) invert(1);
+    margin-bottom: 30px;
 }
 
 .auth-left h1 {
-    margin: auto 0 16px;
+    margin: 0 0 16px;
     color: #ffffff;
     font-size: 42px;
     line-height: 1.2;
@@ -282,6 +284,11 @@
         border-right: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
         padding: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    .auth-brand {
+        height: 50px;
     }
     .auth-left h1 {
         font-size: 32px;

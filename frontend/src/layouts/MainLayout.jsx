@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
 import './MainLayout.css';
 import ConfirmModal from '../components/ConfirmModal';
+import logoImage from '../assets/images/DigiLitera.png';
 
 
 const DashboardIcon = () => (
@@ -86,9 +87,9 @@ export default function MainLayout() {
       <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
 
         <div className="sidebar-header">
-          <h2 className="sidebar-brand">
-            
-          </h2>
+          <div className="sidebar-brand">
+            <img src={logoImage} alt="DigiLitera Logo" />
+          </div>
         </div>
 
         <nav className="sidebar-nav">

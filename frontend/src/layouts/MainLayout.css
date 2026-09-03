@@ -29,6 +29,16 @@
   line-height: 28px;
   font-weight: 700;
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-brand img {
+  height: 90px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .sidebar-nav {

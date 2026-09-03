@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS smartfin;
-USE smartfin;
+CREATE DATABASE IF NOT EXISTS web_learning;
+USE web_learning;
 -- =====================================================
 -- USERS
 -- =====================================================

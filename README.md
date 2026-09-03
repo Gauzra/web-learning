@@ -177,10 +177,10 @@ mysql -u root -p < backend/schema.sql
 Jika aplikasi sudah memiliki database lama, jalankan juga migrasi untuk fitur ekstraksi soal latihan:
 
 ```bash
-mysql -u root -p smartfin < backend/migrations/001_exercise_question_extraction.sql
+mysql -u root -p web_learning < backend/migrations/001_exercise_question_extraction.sql
 ```
 
-Skema database menggunakan nama database `smartfin` (dapat disesuaikan melalui `.env`).
+Skema database menggunakan nama database `web_learning` (dapat disesuaikan melalui `.env`).
 
 ### 2. Menjalankan Backend
 
@@ -233,7 +233,7 @@ PORT=5000
 # Database MySQL
 DB_HOST=localhost
 DB_PORT=3306
-DB_NAME=smartfin
+DB_NAME=web_learning
 DB_USER=root
 DB_PASSWORD=your_password
 
