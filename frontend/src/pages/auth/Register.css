@@ -284,7 +284,9 @@
         text-align: center;
     }
     .register-brand {
-        height: 50px;
+        height: 75px;
+        align-self: center;
+        object-position: center;
     }
     .register-left h1 {
         font-size: 32px;

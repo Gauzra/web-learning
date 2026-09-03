@@ -165,7 +165,7 @@ export default function Register() {
                     <img src={logoImage} alt="DigiLitera" className="register-brand" />
                     <h1>Bergabunglah dengan Kami</h1>
                     <p className="register-left-desc">
-                        Daftarkan akun untuk mengakses platform pembelajaran SMARTFIN.
+                        Daftarkan akun untuk mengakses platform pembelajaran DIGILITERA.
                         Tingkatkan keterampilan Anda dengan fitur interaktif dan materi terstruktur kami.
                     </p>
                 </div>

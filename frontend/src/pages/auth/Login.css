@@ -288,7 +288,9 @@
         text-align: center;
     }
     .auth-brand {
-        height: 50px;
+        height: 75px;
+        align-self: center;
+        object-position: center;
     }
     .auth-left h1 {
         font-size: 32px;
