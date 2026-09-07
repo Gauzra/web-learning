@@ -72,11 +72,11 @@ export default function AddVideo({
         }
 
         const maxSize =
-            500 * 1024 * 1024;
+            200 * 1024 * 1024;
 
         if (selectedFile.size > maxSize) {
             setError(
-                'Ukuran video maksimal 500 MB.'
+                'Ukuran video maksimal 200 MB.'
             );
 
             event.target.value = '';
@@ -358,7 +358,7 @@ export default function AddVideo({
 
                     <small>
                         Format MP4, WebM, OGG, atau MOV.
-                        Maksimal 500 MB.
+                        Maksimal 200 MB.
                     </small>
 
                     {file && (

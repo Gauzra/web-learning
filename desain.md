@@ -1,5 +1,5 @@
 ---
-name: Academic Wealth
+name: DigiLitera
 colors:
   surface: '#f8f9ff'
   surface-dim: '#ccdbf4'
