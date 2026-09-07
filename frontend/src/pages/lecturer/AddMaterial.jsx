@@ -181,9 +181,9 @@ export default function AddMaterial() {
             <div className="add-material-header">
 
                 <div>
-                    <span>
+                    {/* <span>
                         SMARTFIN DOSEN
-                    </span>
+                    </span> */}
 
                     <h1>
                         Tambah Materi

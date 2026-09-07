@@ -8,18 +8,10 @@
 .pgd-hero {
     position: relative;
     overflow: hidden;
-    color: #fff;
     padding: 18px 28px 20px 34px;
     border-radius: 14px;
-    background:
-        repeating-linear-gradient(
-            115deg,
-            transparent 0,
-            transparent 18px,
-            rgba(255, 255, 255, 0.05) 18px,
-            rgba(255, 255, 255, 0.05) 20px
-        ),
-        #131b2e;
+    border: 1px solid #e4e7ec;
+    background: #ffffff;
 }
 
 .pgd-hero::before {
@@ -29,12 +21,12 @@
     bottom: 0;
     left: 0;
     width: 5px;
-    background: #9fc3e9;
+    background: #2866a9;
 }
 
 .pgd-hero p {
     margin: 0 0 6px;
-    color: #9fc3e9;
+    color: #2866a9;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -43,7 +35,7 @@
 
 .pgd-hero h1 {
     margin: 0;
-    color: #fff;
+    color: #0d1c2f;
     font-size: 28px;
     line-height: 36px;
 }
@@ -51,7 +43,7 @@
 .pgd-hero span {
     display: block;
     margin-top: 6px;
-    color: rgba(235, 241, 255, 0.75);
+    color: #667085;
     font-size: 15px;
     line-height: 23px;
 }

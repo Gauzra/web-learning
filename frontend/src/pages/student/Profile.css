@@ -22,17 +22,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 20px 28px;
+    padding: 20px 28px 20px 34px;
     border-radius: 14px;
-    background:
-        repeating-linear-gradient(
-            115deg,
-            transparent 0,
-            transparent 18px,
-            rgba(255, 255, 255, 0.05) 18px,
-            rgba(255, 255, 255, 0.05) 20px
-        ),
-        #131b2e;
+    border: 1px solid #e4e7ec;
+    background: #ffffff;
 }
 
 .prof-hero::before {
@@ -42,7 +35,7 @@
     bottom: 0;
     left: 0;
     width: 5px;
-    background: #9fc3e9;
+    background: #2866a9;
 }
 
 .prof-avatar-wrapper {
@@ -56,9 +49,9 @@
 .prof-avatar {
     width: 100%;
     height: 100%;
-    background: rgba(159, 195, 233, 0.16);
-    border: 1px solid rgba(159, 195, 233, 0.4);
-    color: #cfe2f8;
+    background: #eff4ff;
+    border: 1px solid #9fc3e9;
+    color: #2866a9;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -120,14 +113,14 @@
 .prof-hero-name {
     margin: 0;
     font-size: 24px;
-    color: #ffffff;
+    color: #0d1c2f;
 }
 
 .prof-hero-role {
     font-size: 13px;
     font-weight: 600;
-    color: #9fc3e9;
-    background: rgba(159, 195, 233, 0.15);
+    color: #2866a9;
+    background: #eff4ff;
     padding: 4px 10px;
     border-radius: 99px;
     width: fit-content;
@@ -137,13 +130,13 @@
 .prof-hero-email {
     margin: 0;
     font-size: 14px;
-    color: rgba(235, 241, 255, 0.85);
+    color: #667085;
 }
 
 .prof-hero-join {
     margin: 0;
     font-size: 13px;
-    color: rgba(235, 241, 255, 0.6);
+    color: #98a2b3;
 }
 
 .prof-section {
